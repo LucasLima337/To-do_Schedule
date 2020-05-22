@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>ToDo -- Agenda</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>ToDo -- Agenda</h1>
+        </header>
+        <section id="sec1">
+            <div id="menu">
+                <header id='menuh'>
+                    <img src="images/TITAN.png" alt="perfil">
+                    <h4>Seu perfil</h4>
+                </header>
+                <ul>
+                    <li><button id='butli1'>Baixa Prioridade</button></li>
+                    <li><button id='butli2'>Média Prioridade</button></li>
+                    <li><button id='butli3'>Alta Prioridade</button></li>
+                    <li><button id='butli4'>Calendário</button></li>
+                </ul>
+            </div>
+            <main>
+                <header id="agendah">
+                    <h3>Tema:</h3>
+                    <input type="text" name="tema" id="tema" placeholder="Digite aqui seu tema...">
+                    <h3>Data:</h3>
+                    <input type="date" name="data" id="data">
+                    <h3>Prioridade:</h3>
+                    <select name="sel" id="sel">
+                        <option value=""></option>
+                        <option value="baixa">Baixa</option>
+                        <option value="media">Média</option>
+                        <option value="alta">Alta</option>
+                    </select>
+                </header>
+                <div>
+                    <textarea name="area" id="area" cols="70" rows="20" placeholder="Digite aqui seus deveres... :)"></textarea>
+                </div>
+                <div id="but">
+                    <button id='add'>Adicionar</button>
+                </div>
+            </main>
+        </section>
+
+        <!-- Calendário -->
+        <section id="calendar">
+            <header>
+                <button>&lt;</button>
+                <h2>Mês</h2>
+                <button>&gt;</button>
+                <button id='close'>X</button>
+            </header>
+            <div id="datas">
+                <table>
+                    <tr id='dias'>
+                        <th>Dom</th>
+                        <th>Seg</th>
+                        <th>Ter</th>
+                        <th>Qua</th>
+                        <th>Qui</th>
+                        <th>Sex</th>
+                        <th>Sáb</th>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <script src="js/script.js"></script>
+    </body>
+</html>
