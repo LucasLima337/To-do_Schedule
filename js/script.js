@@ -33,6 +33,7 @@ switch(mesatual){
     case 4:
         mesatual = 'MAIO'
         mescalendar = maio()
+        mes.style.color = 'rgb(255, 219, 13)'
         break
     case 5:
         mesatual = 'JUNHO'
@@ -60,6 +61,7 @@ switch(mesatual){
         break
 }
 mes.innerHTML = mesatual
+
 
 function maio(){
     var table = document.querySelector('#datas table')
