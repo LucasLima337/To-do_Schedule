@@ -8,13 +8,14 @@ function calen(){
     calendar.style.display = 'block'
     contcont += 1
     if(contcont == 1){
-        agosto()
+        mescalendar
     }
 }
 
 var mes = document.querySelector('#calendar header h2')
 
 let mesatual = new Date().getMonth()
+let mescalendar
 
 switch(mesatual){
     case 0:
@@ -31,15 +32,19 @@ switch(mesatual){
         break
     case 4:
         mesatual = 'MAIO'
+        mescalendar = maio()
         break
     case 5:
         mesatual = 'JUNHO'
+        mescalendar = junho()
         break
     case 6:
         mesatual = 'JULHO'
+        mescalendar = julho()
         break
     case 7:
         mesatual = 'AGOSTO'
+        mescalendar = agosto()
         break
     case 8:
         mesatual = 'SETEMBRO'
