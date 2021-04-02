@@ -1,4 +1,4 @@
-# To-Do Agenda
- * To-Do Agenda criada com as tecnologias HTML, CSS e JS
+# To-do Schedule
+ * To-Do schedule created using HTML, CSS and Javascript technologies.
 
- * OBS: Em desenvolvimento
+ * OBS: Under development...
